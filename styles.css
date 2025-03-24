@@ -138,5 +138,22 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: var( --rose-pompadour);
+    border: none;
+    font-weight: bold;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: var( --misty-rose);
+}
+.menu-acesibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+.rotacao-menu{
+    transform: rotate(-90deg);
+    transform
 }
